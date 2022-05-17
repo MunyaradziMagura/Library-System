@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibrarySystemSkeleton", "LibrarySystemSkeleton.vcxproj", "{868E89AA-487C-4E93-887A-9D298BE0B421}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{868E89AA-487C-4E93-887A-9D298BE0B421}.Debug|x64.ActiveCfg = Debug|x64
+		{868E89AA-487C-4E93-887A-9D298BE0B421}.Debug|x64.Build.0 = Debug|x64
+		{868E89AA-487C-4E93-887A-9D298BE0B421}.Debug|x86.ActiveCfg = Debug|Win32
+		{868E89AA-487C-4E93-887A-9D298BE0B421}.Debug|x86.Build.0 = Debug|Win32
+		{868E89AA-487C-4E93-887A-9D298BE0B421}.Release|x64.ActiveCfg = Release|x64
+		{868E89AA-487C-4E93-887A-9D298BE0B421}.Release|x64.Build.0 = Release|x64
+		{868E89AA-487C-4E93-887A-9D298BE0B421}.Release|x86.ActiveCfg = Release|Win32
+		{868E89AA-487C-4E93-887A-9D298BE0B421}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F3D06B2-53DA-4C88-B085-0121494574CC}
+	EndGlobalSection
+EndGlobal
