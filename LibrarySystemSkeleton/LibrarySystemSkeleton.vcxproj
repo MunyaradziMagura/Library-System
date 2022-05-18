@@ -145,14 +145,18 @@
     <ClCompile Include="catelogue.cpp" />
     <ClCompile Include="detailsAdapter.cpp" />
     <ClCompile Include="dvd.cpp" />
+    <ClCompile Include="generateReturnsPolicy.cpp" />
     <ClCompile Include="imdbDetailsLoader.cpp" />
     <ClCompile Include="isbndbDetailsLoader.cpp" />
     <ClCompile Include="isbnDetailsLoader.cpp" />
     <ClCompile Include="item.cpp" />
+    <ClCompile Include="lendingRecord.cpp" />
     <ClCompile Include="librarian.cpp" />
     <ClCompile Include="LibrarySystemSkeleton.cpp" />
     <ClCompile Include="magazine.cpp" />
+    <ClCompile Include="newReleaseReturnsPolicy.cpp" />
     <ClCompile Include="patron.cpp" />
+    <ClCompile Include="returnsPolicy.cpp" />
     <ClCompile Include="toy.cpp" />
     <ClCompile Include="user.cpp" />
   </ItemGroup>
@@ -163,13 +167,17 @@
     <ClInclude Include="catelogue.h" />
     <ClInclude Include="detailsAdapter.h" />
     <ClInclude Include="dvd.h" />
+    <ClInclude Include="generateReturnsPolicy.h" />
     <ClInclude Include="imdbDetailsLoader.h" />
     <ClInclude Include="isbndbDetailsLoader.h" />
     <ClInclude Include="isbnDetailsLoader.h" />
     <ClInclude Include="item.h" />
+    <ClInclude Include="lendingRecord.h" />
     <ClInclude Include="librarian.h" />
     <ClInclude Include="magazine.h" />
+    <ClInclude Include="newReleaseReturnsPolicy.h" />
     <ClInclude Include="patron.h" />
+    <ClInclude Include="returnsPolicy.h" />
     <ClInclude Include="toy.h" />
     <ClInclude Include="user.h" />
   </ItemGroup>
