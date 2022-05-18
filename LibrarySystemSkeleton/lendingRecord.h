@@ -9,6 +9,7 @@ private:
 	time_t borrowDate;
 	time_t returnDate;
 	string returnsPolicy;
+	virtual time_t generateReturnDate() = 0;
 public:
 	lendingRecord(time_t _borrowDate, time_t _returnDate, int _lendingRecordID, string _returnsPolicy) {
 		lendingRecordID = _lendingRecordID;
@@ -22,7 +23,7 @@ public:
 	}
 	time_t getBorrowDate() { return borrowDate; }
 	void setBorrowDate(time_t _borrowDate) { borrowDate = _borrowDate; }
-	time_t generateReturnDate() { return returnDate - borrowDate; };
+	time_t generateReturnDate() { };
 	bool isOverDue(time_t _returnDate, time_t _currentDate) {return (_returnDate < _currentDate) ? false : true; }
 };
 
